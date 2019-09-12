@@ -3,7 +3,7 @@
  * Plugin Name:       Yan
  * Plugin URI:        https://aprendiendoando.com/plugins/yan
  * Description:       Yan Plugin Demo
- * Version:           1.1
+ * Version:           1.2
  * Requires at least: 5.2
  * Requires PHP:      7.2
  * Author:            Yan Arlex Vallejo 
