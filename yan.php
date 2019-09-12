@@ -14,5 +14,13 @@
  * Domain Path:       /languages
  */
 
+require 'plugin-update-checker/plugin-update-checker.php';
+$myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
+	'https://github.com/aprendiendoando/yan',
+	__FILE__,
+	'yan'
+);
+
+$myUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 
